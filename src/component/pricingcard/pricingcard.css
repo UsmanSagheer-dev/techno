@@ -1,0 +1,101 @@
+
+.cardpricing {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 0.25rem;
+    margin: 1rem;
+    width: 400px;
+    box-shadow: 6px 4px 6px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .headercard5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraph and Icon Section */
+  .content-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 15px;
+  }
+  
+  .jjj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    gap: 5px;
+  }
+  .jjj h2{
+    font-size: 16px;
+  }
+  
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: rgba(167, 139, 250, 1);
+    margin-right: 0.5rem;
+  }
+  
+  .para-text {
+    font-size: 1rem;
+    color: rgba(156, 163, 175, 1);
+    line-height: 1.625;
+  }
+  
+  /* Button Style */
+  .action {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background-color: rgba(167, 139, 250, 1);
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: rgba(17, 24, 39, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action:hover {
+    background-color: rgba(139, 92, 246, 1);
+  }
+  
+  /* Optional extra styles for responsiveness */
+  @media screen and (max-width: 768px) {
+    .cardpricing {
+      width: 100%;
+    }
+  }
+  .headercard5{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .headercard5 h1{
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .headercard5 h3{
+    font-size: 30px;
+    font-weight: 400;
+  }

@@ -1,0 +1,17 @@
+.contentheading h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #025add;
+    cursor: pointer;
+}
+.content_para{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content_para p{
+    height: 25px;
+ font-size: 14px;
+    color: white;
+}

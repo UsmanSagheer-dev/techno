@@ -1,0 +1,38 @@
+.choosecard1_set1{
+    align-items:start;
+    justify-content: start;
+    display: flex;
+    flex-direction: row-reverse;
+
+    gap: 20px;
+}
+.chooseInformation1{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
+}
+.chooseInformation1 h1{
+    font-weight: 400;
+    color: rgb(53, 53, 53);
+    font-size: 27px;
+}
+.choosecardimg1{
+    width: 50px;
+    margin-top: 5px;
+    transition: all ease .5s;
+}
+.choosecardimg1:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width:400px) {
+    .choosecard1_set1{
+        width: 100%;
+      
+    }
+    .chooseInformation1{
+        width: 180px;
+    }
+}

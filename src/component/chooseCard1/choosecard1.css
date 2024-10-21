@@ -1,0 +1,36 @@
+.choosecard1_set{
+    align-items:start;
+    justify-content: start;
+    display: flex;
+
+    gap: 20px;
+}
+.chooseInformation{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+}
+.chooseInformation h1{
+    font-weight: 400;
+    color: rgb(53, 53, 53);
+    font-size: 27px;
+}
+.choosecardimg{
+    width: 50px;
+    margin-top: 5px;
+    transition: all ease .5s;
+}
+.choosecardimg:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width:400px) {
+    .choosecard1_set{
+        width: 100%;
+      
+    }
+    .chooseInformation{
+        width: 180px;
+    }
+}

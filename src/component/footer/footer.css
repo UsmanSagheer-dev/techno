@@ -1,0 +1,88 @@
+.footerSetting {
+    position: relative;
+    background-image: url(../../assets/images/backai.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    padding:70px 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.footerSetting::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1; 
+}
+
+.footerSetting > * {
+    z-index: 2; 
+}
+.sersetting{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.footercontent_set{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contentheading{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contentheading p{
+    color: white;
+}
+             
+.input{
+    width: 350px;
+    border-color: white;
+    background-color: aliceblue;
+    border-radius: 12px;
+    padding: 12px;
+}
+@media screen and (max-width:400px) {
+    .input{
+        width: auto;
+    } 
+    .sersetting{
+        gap: 5px;
+    }
+}
+.scrollToTopButton {
+    position: absolute;
+    width:'auto';
+    display: flex;
+    justify-content: end;
+    background-color: #0765de;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 430px;
+  }
+  
+  .scrollToTopButton:hover {
+    background-color: #004aad;
+  }
+  @media screen and (max-width:1024px) {
+    .scrollToTopButton {
+        margin: 10px;
+    }
+  }
+  

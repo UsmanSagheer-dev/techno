@@ -1,0 +1,17 @@
+.pricingCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pricingSetting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.pricingheading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}

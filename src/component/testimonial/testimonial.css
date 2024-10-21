@@ -1,0 +1,20 @@
+.testimonialSetting{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 60px;
+    z-index: 999;
+}
+.testimonialHeading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (max-width:620px) {
+    .testimonialSetting{
+        margin-top: 30px;
+        gap: 20px;
+    }
+}

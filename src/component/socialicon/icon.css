@@ -1,0 +1,13 @@
+.icons {
+  display: flex;
+
+  background-color: transparent;
+  justify-content: center;
+}
+.icons h1 {
+
+  transition: all ease 0.5s;
+}
+.icons h1:hover {
+    transform: scale(1.1);
+}

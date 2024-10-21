@@ -1,0 +1,29 @@
+.mainportfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+
+}
+.portfolioheading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.portfolioButton{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.set_portfolio-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+@media screen and (max-width:815px) {
+    .set_portfolio-card{
+        gap: 10px;
+    }
+}

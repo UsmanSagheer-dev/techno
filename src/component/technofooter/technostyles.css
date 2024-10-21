@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');* {
+  font-family: "Poppins", sans-serif;
+}
+.technomain {
+  display: flex;
+  flex-direction: column;
+}
+
+.technoImg img {
+  width: 150px;
+  height: auto;
+}
+.technoPara {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.technoPara p {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 17px;
+  width: 350px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.technoheading {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.technoPara h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.technoicon {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  margin-top: 15px;
+}
+.footercopy h1 {
+  color: white;
+  font-size: 14px;
+}
+@media screen and (max-width:400px) {
+  .technoPara p {
+    width: auto;
+  }
+  .technoheading {
+    gap: 10px;
+  }
+}

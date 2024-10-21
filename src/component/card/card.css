@@ -1,0 +1,40 @@
+.card_setting {
+    background-color: white;
+    width: 400px;
+
+    border-radius: 8px; /* Optional: Add rounded corners for a smoother look */
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+    gap: 8px;
+    transition: all ease .5s;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+}
+.card_setting:hover{
+    transform: scale(1.05);
+}
+.card_heading h2{
+    font-weight: 500;
+    color: #0765de;
+}
+@media screen and (max-width:815px) {
+    .card_setting{
+        width: auto;
+        margin: 10px;
+    }
+}
+@media screen and (max-width:450px) {
+    .card_setting{
+        width: auto;
+        margin: 10px;
+    }
+}
